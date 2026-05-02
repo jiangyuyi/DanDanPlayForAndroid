@@ -15,7 +15,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/layout_bg_color">
+        android:background="@color/layout_bg_color"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/screen_cl"
@@ -114,6 +116,7 @@
             android:id="@+id/magnet_rv"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:descendantFocusability="afterDescendants"
             android:visibility="gone"
             app:layout_constraintBottom_toTopOf="@+id/copyright_tv"
             app:layout_constraintTop_toBottomOf="@id/screen_cl"

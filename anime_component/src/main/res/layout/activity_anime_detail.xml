@@ -172,6 +172,7 @@
                             android:layout_height="26dp"
                             android:layout_gravity="center"
                             android:background="@drawable/background_follow"
+                            android:focusable="true"
                             android:gravity="center"
                             android:onClick="@{() -> viewModel.followAnime()}"
                             android:paddingStart="12dp"

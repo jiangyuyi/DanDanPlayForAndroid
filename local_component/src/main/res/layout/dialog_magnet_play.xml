@@ -34,7 +34,8 @@
             android:text="@string/action_select_torrent_file"
             android:textColor="@color/text_black"
             style="?android:attr/borderlessButtonStyle"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:focusable="true" />
 
     </LinearLayout>
 </layout>

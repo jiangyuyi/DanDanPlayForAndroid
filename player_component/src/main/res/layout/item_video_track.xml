@@ -6,7 +6,8 @@
         android:id="@+id/track_ll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:focusable="true">
 
         <RadioButton
             android:id="@+id/track_select_cb"

@@ -46,6 +46,7 @@
             android:text="@string/action_exit_player"
             android:textColor="@color/text_white_immutable"
             android:textSize="16sp"
+            android:focusable="true"
             android:visibility="@{viewModel.isParseError() ? View.VISIBLE : View.GONE }" />
 
     </LinearLayout>

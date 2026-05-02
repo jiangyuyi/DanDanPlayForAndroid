@@ -34,7 +34,8 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/path_rv"
                 android:layout_width="match_parent"
-                android:layout_height="48dp" />
+                android:layout_height="48dp"
+                android:descendantFocusability="afterDescendants" />
 
         </com.google.android.material.appbar.AppBarLayout>
 

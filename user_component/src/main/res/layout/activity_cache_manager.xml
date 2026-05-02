@@ -30,7 +30,8 @@
             android:background="@drawable/background_item_press_corner"
             android:gravity="center_vertical"
             android:orientation="vertical"
-            android:padding="12dp">
+            android:padding="12dp"
+            android:focusable="true">
 
             <TextView
                 android:id="@+id/app_cache_path_tips"
@@ -127,7 +128,8 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_cache"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:descendantFocusability="afterDescendants" />
 
         </LinearLayout>
 

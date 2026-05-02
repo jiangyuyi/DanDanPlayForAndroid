@@ -98,6 +98,7 @@
                 android:layout_height="48dp"
                 android:layout_gravity="end"
                 android:layout_marginEnd="10dp"
+                android:focusable="true"
                 android:padding="15dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/ic_input_visible" />
@@ -133,6 +134,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="end"
                 android:background="@drawable/background_button_corner_gray"
+                android:focusable="true"
                 android:gravity="center"
                 android:text="@string/action_test_server"
                 android:textColor="@color/text_black"

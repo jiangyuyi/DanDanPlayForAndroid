@@ -28,13 +28,15 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/path_rv"
                 android:layout_width="match_parent"
-                android:layout_height="30dp" />
+                android:layout_height="30dp"
+                android:descendantFocusability="afterDescendants" />
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/file_rv"
             android:layout_width="match_parent"
-            android:layout_height="350dp" />
+            android:layout_height="350dp"
+            android:descendantFocusability="afterDescendants" />
     </LinearLayout>
 
 </layout>

@@ -16,7 +16,8 @@
         android:id="@+id/item_layout"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@drawable/background_screencast_device">
+        android:background="@drawable/background_screencast_device"
+        android:focusable="true">
 
         <TextView
             android:id="@+id/tv_device_name"

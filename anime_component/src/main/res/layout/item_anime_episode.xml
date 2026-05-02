@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="60dp"
-        android:paddingVertical="10dp">
+        android:paddingVertical="10dp"
+        android:focusable="true">
 
         <TextView
             android:id="@+id/tv_episode_title"

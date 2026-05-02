@@ -15,6 +15,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         tools:background="@color/item_bg_color">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -155,6 +157,7 @@
             android:id="@+id/episode_rv"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:descendantFocusability="afterDescendants"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/barrier" />
 

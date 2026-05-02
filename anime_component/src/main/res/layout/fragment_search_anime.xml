@@ -14,7 +14,9 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/type_cl"
@@ -41,6 +43,7 @@
                 android:id="@+id/anime_type_rv"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:descendantFocusability="afterDescendants"
                 app:layout_constraintEnd_toStartOf="@+id/type_expand_iv"
                 app:layout_constraintStart_toEndOf="@id/type_tv"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -85,6 +88,7 @@
                 android:id="@+id/sort_rv"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:descendantFocusability="afterDescendants"
                 android:layout_marginEnd="50dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/sort_tips"
@@ -96,6 +100,7 @@
             android:id="@+id/anime_rv"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:descendantFocusability="afterDescendants"
             android:layout_marginTop="5dp"
             android:background="@color/item_bg_color"
             app:layout_constraintBottom_toBottomOf="parent"

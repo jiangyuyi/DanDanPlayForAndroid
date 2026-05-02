@@ -6,7 +6,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/item_layout"
         android:layout_width="match_parent"
-        android:layout_height="46dp">
+        android:layout_height="46dp"
+        android:focusable="true">
 
         <TextView
             android:id="@+id/screen_tv"

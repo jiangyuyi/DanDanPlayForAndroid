@@ -38,7 +38,8 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/subtitle_rv"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:descendantFocusability="afterDescendants" />
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
     </LinearLayout>
 </layout>

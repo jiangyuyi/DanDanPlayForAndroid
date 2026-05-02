@@ -12,6 +12,7 @@
         android:minHeight="46dp"
         android:padding="10dp"
         android:tag="@string/focusable_item"
+        android:focusable="true"
         android:textColor="@color/text_white_immutable"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"

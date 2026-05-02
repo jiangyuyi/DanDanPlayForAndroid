@@ -76,6 +76,7 @@
                         android:paddingHorizontal="10dp"
                         android:textColor="@color/text_white_immutable"
                         android:textSize="14sp"
+                        android:focusable="true"
                         app:layout_constraintEnd_toEndOf="parent"
                         tools:text="启动服务" />
 
@@ -234,6 +235,7 @@
                         android:padding="8dp"
                         android:src="@drawable/ic_password_refresh"
                         android:visibility="visible"
+                        android:focusable="true"
                         app:layout_constraintBottom_toBottomOf="@id/port_tv"
                         app:layout_constraintStart_toEndOf="@id/port_tv"
                         app:layout_constraintTop_toTopOf="@id/port_tv" />
@@ -283,6 +285,7 @@
                         android:padding="8dp"
                         android:src="@drawable/ic_password_refresh"
                         android:visibility="visible"
+                        android:focusable="true"
                         app:layout_constraintBottom_toBottomOf="@id/password_et"
                         app:layout_constraintStart_toEndOf="@id/password_et"
                         app:layout_constraintTop_toTopOf="@id/password_et" />
@@ -292,6 +295,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
+                        android:focusable="true"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -322,6 +326,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
+                        android:focusable="true"
                         app:layout_constraintBottom_toBottomOf="@id/tips_confirm_receive"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="@id/tips_confirm_receive"
@@ -344,6 +349,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
+                        android:focusable="true"
                         app:layout_constraintBottom_toBottomOf="@id/tips_auto_start"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="@id/tips_auto_start"
